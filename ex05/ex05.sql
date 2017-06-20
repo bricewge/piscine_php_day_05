@@ -1,2 +1,2 @@
-DELETE FROM `db_bwaegene`.`ft_table`
+DELETE FROM ft_table
 LIMIT 5;

@@ -1,3 +1,3 @@
-SELECT count(`id_film`) AS `nb_short-films`
-FROM `db_bwaegene`.`film`
-WHERE `duration` <= 42;
+SELECT count(*) AS `nb_short-films`
+FROM film
+WHERE duration <= 42;
